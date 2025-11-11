@@ -66,6 +66,11 @@ public class RegisterTest extends BaseTest
 		LoginPage lp = new LoginPage(driver);
 	lp.	loginIntoTheWebSite(map);
 	}
+	@Test
+	public void newRun()
+	{
+		
+	}
 
 	@Test
 	public void loginIntowithInavlidEmail()
