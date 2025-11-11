@@ -73,6 +73,11 @@ public class RegisterTest extends BaseTest
 	}
 
 	@Test
+	public void caom()
+	{
+		
+	}
+	@Test
 	public void loginIntowithInavlidEmail()
 	{
 		HashMap<String,String> map = new HashMap<String, String>();
