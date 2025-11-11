@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 
 public class RegisterPage extends AbstractMethods {
 
@@ -94,5 +95,11 @@ public class RegisterPage extends AbstractMethods {
 		// String text = driver.findElement(errorMsgs).getText().trim();
 		// return text;
 
+	}
+	
+	
+	public void caom()
+	{
+		System.out.println("commit");
 	}
 }
