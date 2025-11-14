@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import shop.main.AbstractMethods;
+
 public class AddProdcutToCart2 extends AbstractMethods {
 
 	public WebDriver driver;

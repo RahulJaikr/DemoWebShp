@@ -13,7 +13,7 @@ import shop.main.CheckOutPage;
 import shop.main.ProdcutPage;
 import shop.main.RegisterPage;
 import shop.main.ShoppingCartPage;
-import shop.main.utils.ExcelUtils;
+import shop.uttils.ExcelUtils;
 
 public class ProductTest extends BaseTest {
 
@@ -32,7 +32,7 @@ public class ProductTest extends BaseTest {
 		pp.addProductToCart(map);
 	}
 
-	@Test
+	@Test(groups = {"sanity"})
 	public void checkProcessorDeatils() throws Exception {
 
 		ShoppingCartPage scp = new ShoppingCartPage(driver);
