@@ -92,6 +92,7 @@ public class ProdcutPage3 extends AbstractMethods {
 		visibilityOf(pass);
 		pass.clear();
 		pass.sendKeys("Enter@123");
+		//ScreenshotUttils.takeScreenshot(driver);
 		elementToBeClickable(submitButton);
 		submitButton.click();
 

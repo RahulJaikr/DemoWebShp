@@ -1,6 +1,6 @@
 package shop.dataProvider;
 
-import shop.main.utils.ExcelUtils;
+import shop.uttils.ExcelUtils;
 
 public class TestDataProvider 
 {

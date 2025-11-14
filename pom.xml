@@ -4,6 +4,7 @@
   <artifactId>demowebshop</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+
 	<properties>
 		<maven.compiler.source>21</maven.compiler.source>
 		<maven.compiler.target>21</maven.compiler.target>
@@ -81,7 +82,20 @@
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
         <version>5.2.5</version>
+        
+        
     </dependency>
+
+		<!-- Extent Reports Core -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
+</dependency>
+
+		<!-- ExtentReports TestNG Adapter -->
+
+
 </dependencies>
 
 
