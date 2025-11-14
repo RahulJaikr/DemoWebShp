@@ -1,11 +1,12 @@
 package shop.main;
 
-import java.util.Map;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import shop.uttils.ScreenshotUttils;
+import shop.uttils.Listener;
 
 public class LoginPage extends AbstractMethods {
 
@@ -48,7 +49,7 @@ public class LoginPage extends AbstractMethods {
 		for (String email : loginDeatils.keySet()) {
 
 			clickOnTheLoginLink();
-
+			Listener.getTest().info("Clicked on the login button");
 			visibilityOf(enterEmail);
 			enterEmail.clear();
 			enterEmail.sendKeys(email);
@@ -57,6 +58,7 @@ public class LoginPage extends AbstractMethods {
 			pass.clear();
 			pass.sendKeys(loginDeatils.get(email));
 
+			ScreenshotUttils.takeScreenshot(driver);
 			submitButton.click();
 
 			clickOnTheLogOutButton();

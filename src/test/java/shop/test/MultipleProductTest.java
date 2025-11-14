@@ -16,7 +16,8 @@ import shop.main.ProdcutPage;
 import shop.main.ProdcutPage2;
 import shop.main.ProdcutPage3;
 import shop.main.ShoppingCartPage2;
-import shop.main.utils.ExcelUtils;
+import shop.uttils.ExcelUtils;
+
 
 public class MultipleProductTest extends BaseTest {
 

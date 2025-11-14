@@ -1,4 +1,4 @@
-package shop.main.utils;
+package shop.uttils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

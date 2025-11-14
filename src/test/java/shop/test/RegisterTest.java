@@ -14,12 +14,12 @@ import shop.exculdedClass.ObsletedRegisterPage;
 import shop.main.LoginPage;
 
 import shop.main.RegisterPage;
-import shop.main.utils.ExcelUtils;
+import shop.uttils.ExcelUtils;
 
 public class RegisterTest extends BaseTest
 {
 	
-	@Test
+	@Test (groups = {"sanity"})
 	public void testRegister() throws InterruptedException {
 	    String filePath = "src/test/resources/RegisterData.xlsx";
 
@@ -38,7 +38,7 @@ public class RegisterTest extends BaseTest
 	    //rp.registerUser();
 	}
 	
-	@Test
+	@Test (groups = {"sanity"})
 	public void exisitingUserRegistration() throws InterruptedException {
 	    String filePath = "src/test/resources/RegisterData.xlsx";
 
@@ -57,7 +57,7 @@ public class RegisterTest extends BaseTest
 	    //rp.registerUser();
 	}
 	
-	@Test
+	@Test (groups = {"sanity"})
 	public void loginIntoTheApllication()
 	{
 		HashMap<String,String> map = new HashMap<String, String>();
@@ -77,7 +77,7 @@ public class RegisterTest extends BaseTest
 	{
 		
 	}
-	@Test
+	@Test (groups = {"sanity"})
 	public void loginIntowithInavlidEmail()
 	{
 		HashMap<String,String> map = new HashMap<String, String>();
