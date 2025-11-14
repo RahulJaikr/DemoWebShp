@@ -1,0 +1,48 @@
+# === Java general ===
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+
+# === Eclipse / IntelliJ / VSCode ===
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# === Maven build ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# === Test output ===
+test-output/
+surefire-reports/
+extent-reports/
+emailable-report.html
+
+# === Logs and temp files ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# === Excel / data files (if generated dynamically) ===
+*.xlsx
+*.csv
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Git ===
+.gitignore
